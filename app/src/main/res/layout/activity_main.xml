@@ -16,4 +16,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBarId"
+        android:layout_width="273dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/play_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593" />
 </androidx.constraintlayout.widget.ConstraintLayout>
